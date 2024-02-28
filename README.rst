@@ -1,8 +1,7 @@
-Documentation for shorten-url.com service
-=========================================
+Documentation for shorten-url service
+=====================================
 
-This GitHub repository contains documentation for shorten-url.com service
-professional URL shortener service.
+This GitHub repository contains documentation for shorten-url professional URL shortener service.
 
 Website: https://shorten-url.com
 Documentation: https://shorten-url.readthedocs.io
