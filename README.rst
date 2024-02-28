@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
-=======================================
+Documentation for shorten-url.com service
+=========================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This GitHub repository contains documentation for shorten-url.com service
+professional URL shortener service.
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+Website: https://shorten-url.com
+Documentation: https://shorten-url.readthedocs.io
