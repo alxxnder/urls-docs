@@ -1,13 +1,9 @@
 [ shorten-url ]: professional url shortener service
 ===================================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**shorten-url** is a professional URL shortener service with lot of features, link editing, detailed click statistics, traffic filters, redirect rules, beautiful QR codes, custom domains, password protected links, API access and much more...
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Website: `https://shorten-url.com <https://shorten-url.com/>`
 
 .. note::
 
