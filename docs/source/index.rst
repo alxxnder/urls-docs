@@ -9,6 +9,15 @@ Website: `https://shorten-url.com <https://shorten-url.com/>`_
 
    This documentation is under construction.
 
+Tests
+-----
+
+This is a paragraph that contains `a link`_.
+This is a paragraph that contains `b link`_.
+
+.. _a link: https://domain.invalid/
+.. _b link: https://domain.in/
+
 Contents
 --------
 
