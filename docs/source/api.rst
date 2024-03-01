@@ -175,7 +175,7 @@ Request fields:
 :key: *(optional)* Key portion of new short link. Will be random generated if not present.
 :descr: *(optional)* Description of the new short link.
 :password: *(optional)* Short link access password. If set, visitors clicked the link will be prompted for a password before redirecting to the link destination.
-:valid_till: *(optional)* Short link expiry date in YYYY-MM-DD format.
+:valid_till: *(optional)* Short link expiry date in ``YYYY-MM-DD`` format.
 
 link: show
 ^^^^^^^^^^
@@ -201,7 +201,7 @@ Request fields:
 :status: New status of the link. All status values are described in data dictionary.
 :descr: *(optional)* Description of the new short link.
 :password: *(optional)* Short link access password. If set, visitors clicked the link will be prompted for a password before redirecting to the link destination.
-:valid_till: *(optional)* Short link expiry date in YYYY-MM-DD format.
+:valid_till: *(optional)* Short link expiry date in ``YYYY-MM-DD`` format.
 
 link: delete
 ^^^^^^^^^^^^
@@ -248,8 +248,8 @@ Request fields:
 
 :from: From datetime in ``YYYY-MM-DDTHH:MM:SS.000Z`` format.
 :to: To datetime in ``YYYY-MM-DDTHH:MM:SS.000Z`` format.
-:granula: Breakdown granula: 1 - per hour, 2 - per day.
-:tz: Timezone offset in minutes. Required for correct breakdown.
+:granula: Breakdown granula: ``1`` - per hour, ``2`` - per day.
+:tz: Timezone offset in minutes. Required for correct breakdown. Use ``0`` for UTC breakdown.
 
 link: get logs
 ^^^^^^^^^^^^^^
@@ -285,11 +285,11 @@ Method: ``POST``
 
 Request fields:
 
-:ecc: Error correction level: 1 - Low, 2 - Medium, 3 - Quartile, 4 - High.
-:style: Style: 1 - Classic, 2 - Rounded dots, 3 - Rounded all.
-:color: Color: 1 - Black, 2 - Solid color, 3 - 2-color gradient, 4 - 3-color gradient.
-:color1: Color 1. Used in color modes 2, 3, 4.
-:color2: Color 2. Used in color modes 3, 4.
-:color3: Color 3. Used in color mode 4.
+:ecc: Error correction level: ``1`` - Low, ``2`` - Medium, ``3`` - Quartile, ``4`` - High.
+:style: Style: ``1`` - Classic, ``2`` - Rounded dots, ``3`` - Rounded all.
+:color: Color: ``1`` - Black, ``2`` - Solid color, ``3`` - 2-color gradient, ``4`` - 3-color gradient.
+:color1: Color 1. Used in color modes ``2``, ``3``, ``4``.
+:color2: Color 2. Used in color modes ``3``, ``4``.
+:color3: Color 3. Used in color mode ``4``.
 
 
