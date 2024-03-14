@@ -131,6 +131,7 @@ Request fields:
 
 :name: New name of the group.
 :status: New status of the group. All status values are described in data dictionary.
+:color: *(optional)* HEX color of the group in #RRGGBB format.
 
 group: delete
 ^^^^^^^^^^^^^
